@@ -29,16 +29,3 @@ cv2.imshow('Contours', black_bg)
 cv2.imwrite('contours_output.jpg', black_bg)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
-
-
-#
-# import cv2
-#
-# img = cv2.imread('color_text.jpg')
-#
-# img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
-#
-# img = cv2.Canny(img, 21, 53)
-# cv2.findContours(img)
-# cv2.imshow('Res', img)
-# cv2.waitKey(0)
